@@ -1,0 +1,31 @@
+name: CoronaCount
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  
+  
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  http: ^0.12.2
+  hive: ^1.4.4+1  
+  path_provider: ^1.6.21
+  hive_flutter: ^0.3.1
+  fluttertoast: ^7.1.1
+  sortedmap: ^0.4.2+1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/Images/
+  fonts:
+    - family: Circular
+      fonts:
+        - asset: lib/Fonts/Circular-Air-Light.ttf
